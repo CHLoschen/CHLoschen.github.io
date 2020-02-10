@@ -1,4 +1,4 @@
 # About
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+Besides a lot of other things, I am interested in machine learning and deep learning and its overlap/applications with natural sciences, computational chemistry in particular.
 
