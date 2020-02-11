@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: neanderthal blog
-description: This is going to be a blog about all the stuff that interests me, such as machine & deep learning, computational chemistry, music & more.
+title: the blogging neanderthaler
+description: This is going to be a blog about some stuff that interests me, such as machine & deep learning, computational chemistry & more.
 github_username: CHLoschen
 
 # Email and twitter are optional:
