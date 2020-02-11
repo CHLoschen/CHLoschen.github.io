@@ -1,1 +1,1 @@
-Hello and welcome to my blog. 
+Hello and welcome to my blog. I like to understand the world around me, even if sometimes its hard to keep up and not to feel like a Neanderthaler. Besides, I am located close to the nice Neanderthal.
