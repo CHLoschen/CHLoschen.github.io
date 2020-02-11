@@ -1,6 +1,6 @@
 # Superresolution
 
-Obviously there is some hype concerning deep learning and its sometimes difficult to tell whether this hype is justified or not. Here are some fascinating results from the [fastai course](https://course.fast.ai/) "Practical Deep Learning for Coders, v3". In [lesson 7](https://course.fast.ai/videos/?lesson=7) of the 2019 course one of the topics was about so-called "superresolution", i.e. to improve(!) the resolution of low-res images with deep learning.
+Obviously there is some hype concerning deep learning and its sometimes difficult to tell whether this hype is justified or not. Therefore it is sensible to make your own picture about the potential of deep learning. Here are some fascinating results from the [fastai course](https://course.fast.ai/) "Practical Deep Learning for Coders, v3". In [lesson 7](https://course.fast.ai/videos/?lesson=7) of the 2019 course one of the topics was about so-called "superresolution", i.e. to improve(!) the resolution of low-res images with deep learning.
 
 ![](/images/lowres.png "original, low res image")
 ![](/images/predicted.png "generated image")
