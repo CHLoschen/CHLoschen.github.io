@@ -1,8 +1,10 @@
 # Superresolution
 
-These are some fascinating results from the [fastai course](https://course.fast.ai/) "Practical Deep Learning for Coders, v3". In [lesson 7](https://course.fast.ai/videos/?lesson=7) of the 2019 course one of the topics was about so-called "superresolution", i.e. how to improve! the resolution of low-res images with deep learning.
+Obviously there is some hype concerning deep learning and its sometimes difficult to tell whether this hype is justified or not. Here are some fascinating results from the [fastai course](https://course.fast.ai/) "Practical Deep Learning for Coders, v3". In [lesson 7](https://course.fast.ai/videos/?lesson=7) of the 2019 course one of the topics was about so-called "superresolution", i.e. to improve(!) the resolution of low-res images with deep learning.
 
 ![](/images/lowres.png "original, low res image")
 ![](/images/predicted.png "predicted image")
 
-First of all, the improvement in resolution is quite astonishing - but also have take a look at the texture of the tree, which was made furry-ish by the neural network.
+First of all, the improvement in resolution is quite astonishing - all the details of the cat that have been introduced by the neural net. But also have take a look at the texture of the tree, which was made furry-ish by the neural network... somewhat scary for sure. But it also demonstrates nicely that the missing information in those images cannot be regenerated and that this is a somewhat artistic process. 
+Those results have been obtained with the [fastai](https://docs.fast.ai/) python library using a [unet](https://arxiv.org/abs/1505.04597) type structure based on a [resnet](https://arxiv.org/abs/1512.03385) with a special loss function such as [perceptual loss](http://svl.stanford.edu/assets/papers/JohnsonECCV16.pdf) in order to reproduce the key features of the images.
+For more information about and other related fascinating projects by the fastai developers have a look at e.g.[Decrappification, DeOldification, and Super Resolution](https://www.fast.ai/2019/05/03/decrappify/).
