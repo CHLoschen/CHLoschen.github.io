@@ -24,4 +24,8 @@ As a matter of fact, for this particular image no generative adversarial network
 
 The images had been converted from high to low resolution priorily and were trained in order to reproduce the high resolution again. The image from above is from the [oxford pet dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) and of course taken from the validation set (Siamese_55.jpg).
 
+All in all, I believe this is a great and instructive example, as it simultaneously highlights the limits and and the potentials of deep learning.
+
 For more information about this and other related fascinating projects by the fastai developers have a look at e.g.[Decrappification, DeOldification, and Super Resolution](https://www.fast.ai/2019/05/03/decrappify/).
+
+
