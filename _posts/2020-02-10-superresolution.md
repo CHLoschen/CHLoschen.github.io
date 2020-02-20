@@ -1,8 +1,11 @@
 # Super-Resolution via Deep Learning (with fastai)
 
-Obviously there is a big hype concerning deep learning and its sometimes difficult to tell whether this hype is justified or not. Therefore it is advisable to make your own picture about the potential of deep learning.
-For that reason I recommend to study the fastai[fastai](https://course.fast.ai/) lectures on deep-learning given by Jeremy Howard. 
-Here are some fascinating results from this course "Practical Deep Learning for Coders, v3". In [lesson 7](https://course.fast.ai/videos/?lesson=7) of the 2019 course one of the topics was about so-called "superresolution", i.e. to improve(!) the resolution of low-res images with deep learning.
+Obviously there is a big hype concerning deep learning and its sometimes difficult to tell whether this hype is justified or not. In order to find out what is really going on it is advisable to make one's own picture about the potential of deep learning.
+
+For that reason I recommend to study the [fastai](https://course.fast.ai/) lectures on deep-learning given by Jeremy Howard. 
+Here are some fascinating results from this course "Practical Deep Learning for Coders, v3". 
+In [lesson 7](https://course.fast.ai/videos/?lesson=7) of the 2019 course one of the topics was about so-called "superresolution", i.e. to improve(!) the resolution of low-res images with deep learning. The picture below are obtained with the jupyter-notebook introduced in this course.
+
 
 ![](/images/lowres.png "original, low res image")
 ![](/images/predicted.png "image improved via neural net")
