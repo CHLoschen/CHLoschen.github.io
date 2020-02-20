@@ -10,11 +10,11 @@ In [lesson 7](https://course.fast.ai/videos/?lesson=7) of the 2019 course one of
 ![](/images/lowres.png "original, low res image")
 ![](/images/predicted.png "image improved via neural net")
 
-First of all, the improvement in resolution is quite astonishing - all the details on the photograph that have been introduced by the neural net. Of course, the training algorithm has not seen this very picture before.
+First of all, the improvement in resolution is quite astonishing - please note all the details on the photograph that have been introduced by the neural net. Of course, the training algorithm has not seen this very picture before.
 
-But also have take a look at the texture of the tree, which was made kind of *furry-ish* by the neural network... somewhat scary for sure. Obviously, the algorithm was not able to distinguish between the tree and a cat body. 
+But also have a look at the texture of the tree, which was made kind of *furry-ish* by the neural network... it gives the tree some kind a animal-like look, somewhat scary for sure. Obviously, the algorithm was not able to distinguish between the tree and a cat body. 
 
-Despite the amazing improvement in resolution, this also demonstrates nicely that the missing information in  images cannot be regenerated and that super-resolution is a somewhat artistic process. 
+Despite the amazing improvement in resolution that is seen here and also on the image below, this also demonstrates nicely that the missing information in  images cannot be regenerated and that super-resolution is a somewhat artistic process. And it will never be possible to identify a suspect or to read a car plate on a low res surveilance camera as it is done in so many Hollywood movies... such a generative neural net would "fantasize" some random suspect face or some arbitrary letters and numbers which would not correlate with the truth.
 
 ![](/images/low_res2.png "original, low res image")
 ![](/images/predicted2.png "image improved via neural net")
