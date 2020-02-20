@@ -4,7 +4,7 @@ Obviously there is a big hype concerning deep learning and its sometimes difficu
 
 For that reason I recommend to study the [fastai](https://course.fast.ai/) lectures on deep-learning given by Jeremy Howard. 
 Here are some fascinating results from this course "Practical Deep Learning for Coders, v3". 
-In [lesson 7](https://course.fast.ai/videos/?lesson=7) of the 2019 course one of the topics was about so-called "superresolution", i.e. to improve(!) the resolution of low-res images with deep learning. The picture below are obtained with the jupyter-notebook introduced in this course.
+In [lesson 7](https://course.fast.ai/videos/?lesson=7) of the 2019 course one of the topics was about so-called "superresolution", i.e. to improve(!) the resolution of low-res images with deep learning. The pictures below are obtained with the jupyter-notebook introduced in this course. Images of low resolution were fed into the neural net and it produced images with high resolution:
 
 
 ![](/images/lowres.png "original, low res image")
