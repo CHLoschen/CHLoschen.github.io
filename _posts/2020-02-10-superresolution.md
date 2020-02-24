@@ -15,10 +15,13 @@ First of all, the improvement in resolution is quite astonishing - please note a
 But also have a look at the texture of the tree, which was made kind of *furry-ish* by the neural network... it gives the tree some kind a animal-like look, somewhat scary for sure. Obviously, the algorithm was not able to distinguish between the tree and a cat body. 
 
 Despite the amazing improvement in resolution that is seen here and also on the image below, this also demonstrates nicely that the missing information in  images cannot be regenerated and that super-resolution is a somewhat artistic process. And it will never be possible to identify a suspect or to read a car plate on a low res surveilance camera as it is done in so many Hollywood movies... such a generative neural net would "fantasize" some random suspect face or some arbitrary letters and numbers which would not correlate with the truth.
-Similarly, in the image below, the high resolution result is impressive but the prediction shows some problems separating the carpet from the cat body, they somewhat appear in plane and the perspective somewhow feels wrong. It will be interesting to see if and how such artifacts and subtle details will be overcome in the future.
+
+Similarly, in the image below, the high resolution result is impressive but the prediction shows some problems separating the carpet from the cat body. They appear in plane as if the would belong to the same thing and they even share the same texture, leading to the impression of a somewhow  wrong perspective. 
 
 ![](/images/low_res2.png "original, low res image")
 ![](/images/predicted2.png "image improved via neural net")
+
+It will be interesting to see if and how such artifacts and subtle details will be overcome in the future.
 
 Concerning the technical details, those results have been obtained with the [fastai](https://docs.fast.ai/) python library using a [unet](https://arxiv.org/abs/1505.04597) type structure with a pre-trained [resnet](https://arxiv.org/abs/1512.03385) inside and with a special loss function such as [perceptual loss](http://svl.stanford.edu/assets/papers/JohnsonECCV16.pdf) in order to reproduce the key features of the images. 
 As a matter of fact, for this particular image no generative adversarial network [(GAN)](https://en.wikipedia.org/wiki/Generative_adversarial_network) was used, which had been de-facto state-of-the-art for such kind of generative models before.
