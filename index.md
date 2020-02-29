@@ -1,1 +1,1 @@
-Hello and welcome to my blog. I like to understand the world around me, even if sometimes its hard to keep up and not to feel like a Neanderthaler. Besides, I am located close to the nice Neanderthal.
+Hello and welcome to my blog. I like to understand the world around me and I am a lifelong learner, even if sometimes its hard to keep up and not to feel like a prehistoric human being. Besides, I am located close to the famous Neandert(h)al.
