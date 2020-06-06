@@ -29,6 +29,21 @@ description: "This  jupyter-notebook contains some commented code showing  how t
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>Force Field are used to determine molecular structures and their respective (relative) energies. They are used in very different settings, ranging from drug development to materials research.</p>
+<p>Usually empirical potential energy functions are used that map  the atomic coordinates of a specifc configuration for a molecular, cluster or crystal $\textbf{X}$ to an scalar energy value $E$. $\textbf{X}$ just contains the (e.g. cartesian) coordinates of all the atoms in vector or matrix form. As the atomic positions are changed so changes the total energy.   <br></p>
+<p>$E = f(\textbf{X})$</p>
+<p>Variations of the atomic coordinates may then be carried out in order to find a (local) minimum of the energy, or more exact of the so-called potential energy surface (PES). If the gradient of the energy function is given, the efficiency of the optimization process can be significantly improved. Analytical gradients are functions that map the coordinates to a vector field giving the direction of the strongest rate of function value change at the point $\textbf{X}$.</p>
+<p>Hence, energy and gradient evaluations are typical made for a given atomic configuration, the coordinates are updated with this information from the gradients, and a new configuration  $\textbf{X}'$ is obtained. This process is iterated until the energy or the gradient does not change anymore with respect to a given threshold.</p>
+<p>To further characterize those states, 2nd order derivatives of the PES are also sometimes computed.</p>
+<hr>
+<h2 id="Optimizing-Lennard-Jones-Cluster">Optimizing Lennard-Jones Cluster<a class="anchor-link" href="#Optimizing-Lennard-Jones-Cluster"> </a></h2><p>In order to construct our own little Force Field we deal with a very simple model system. Lennard-Jones clusters are atomic ensembles which are held together only by comparatively weak Van der Waals (VdW) Forces. No strong bonds are involved such as covalent bonds or hydrogen bonds, which typically define real molecules. However, the lack of directed bonds renders this system somewhat easier to treat. The VdW forces are experienced by all atoms and only depend on the interatomic distance:</p>
+<p>$E = 4\epsilon\sum_{i&lt;j}\bigg[\bigg( \frac{\sigma}{r_{ij}}\bigg)^{12}-\bigg( \frac{\sigma}{r_{ij}}\bigg)^{6}\bigg]$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Coding">Coding<a class="anchor-link" href="#Coding"> </a></h2><p>First we import the necessary libraries. In particular numpy (<a href="http://www.numpy.org/">http://www.numpy.org/</a>) for linear algebra and scipy (<a href="https://www.scipy.org/">https://www.scipy.org/</a>) for some  handy functions such as different optimizers. Its always a good idea not to re-invent the wheel...</p>
 
 </div>
