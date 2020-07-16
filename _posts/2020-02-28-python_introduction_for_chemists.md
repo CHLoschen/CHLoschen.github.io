@@ -29,7 +29,7 @@ description: "This is a short introduction to Python programming for Chemists an
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This introductions aims at readers such as chemists and engineers with some programming background. Its intention is to give you a rough overview on the key features of the Python programming language. If you are completely new to programming, you may want to check this nice introduction first <a href="https://wiki.python.org/moin/BeginnersGuide/NonProgrammers">https://wiki.python.org/moin/BeginnersGuide/NonProgrammers</a>.</p>
+<p>This Python introductions aims at readers such as chemists and engineers with some programming background. Its intention is to give you a rough overview on the key features of the Python programming language. If you are completely new to programming, you may want to check this nice introduction first <a href="https://wiki.python.org/moin/BeginnersGuide/NonProgrammers">https://wiki.python.org/moin/BeginnersGuide/NonProgrammers</a>.</p>
 <p>It is also hosted on the <a href="https://colab.research.google.com/drive/1_qg3wu0dtF4d5aW-R4hyMFqyY6zgm0ra">google colab platform</a> and only a web browser is needed to start it.</p>
 <p>We will discuss a bit the differences to other languages, but we will also explain or provide links for most of the concepts mentioned here, so do not worry if some of those are not yet familiar to you.</p>
 <h2 id="Some-key-features-of-Python">Some key features of Python<a class="anchor-link" href="#Some-key-features-of-Python"> </a></h2><ul>
