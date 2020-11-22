@@ -1,1 +1,1 @@
-Hello and welcome to my blog. I like to understand the world around me and I am a lifelong learner, even if sometimes its hard to keep up and not to feel like a prehistoric human being. Besides, I am located close to the famous Neandert(h)al.
+Hello and welcome to my blog. I am curious and I like to understand the world around me, in a sense I like to evolve in order not to feel like a prehistoric human being. Besides, I am located close to the famous Neandert(h)al.
